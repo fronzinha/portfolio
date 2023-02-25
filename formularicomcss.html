@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario com CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>oii</h1>
-    
+
+<body class="cadastroDeProdutos">
+
+    <div>
+        <form class="formcadastro" action="https://target-api-simples.cyclic.app/generica" method="post">
+            <img src="img/frutas.jpg" alt="Cesta de Frutas" width="130px">
+            <p class="cadastro">Cadastro de Produto</p>
+            <p>Informe nos campos a seguir os dados do produtos a serem cadastrados.</p>
+            <input type="text" name="Produto" placeholder="Nome do Produto">
+            <input type="number" name="Preço" placeholder="Preço em R$">
+            <hr>
+            <input type="number" name="Quantidade" placeholder="Quantidade">
+            <select>
+                <option value="text">Selecione a Categoria</option>
+                <option value="text">Fruta</option>
+                <option value="text">Verdura</option>
+                <option value="text">Doces</option>
+                <option value="text">Salgados</option>
+            </select>
+            <hr>
+            <button type="submit">Cadastar</button>
+        </form>
+    </div>
+
     <a href="index.html"><button>Voltar</button></a>
-    
+
 </body>
+
 </html>

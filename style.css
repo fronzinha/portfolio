@@ -1,3 +1,5 @@
+/* Titulo de todas as abas */
+
 .tittle {
     background-color: rgb(73, 73, 209);
     text-align: center;
@@ -5,31 +7,19 @@
     margin-top: 5px;
 }
 
+/* Pagina Principal */
+
 .fundo {
-    background-image: url(https://4kwallpapers.com/images/wallpapers/raze-valorant-pc-games-2021-2880x1800-5550.jpg);
+    background-image: url(img/raze-valorant-pc-games-2021-2880x1800-5550.jpg);
 }
 
-.imgcurriculo {
-    float: left;
+.lista {
+    font-size: 40px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
 }
 
-.subTittle {
-    text-align: center;
-    background-color: rgb(88, 112, 216);
-    border-radius: 20px;
-}
-
-.tabela {
-    text-align: center;
-}
-
-.texto {
-    font-size: large
-}
-
-.imgroda {
-    font-size: small;
-}
+/* Botão da Pagina Principal */
 
 .botaoCurriculo {
     position: relative;
@@ -46,26 +36,42 @@
     font-size: 30px;
 }
 
-.formcomcss {
+.botaoformcomcss {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
 
-.formulario {
+.botaoformulario {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
 
-.layoutsimples {
+.botaolayoutsimples {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
+
+/* Curriculo */
+
+.imgcurriculo {
+    float: left;
+}
+
+/* Loja de Carros */
+
+.subTittle {
+    text-align: center;
+    background-color: rgb(88, 112, 216);
+    border-radius: 20px;
+}
+
+/* Roda Pé */
 
 .rodape {
     position: absolute;
@@ -76,27 +82,12 @@
     line-height: 100px;
 }
 
-.lista {
-    font-size: 30px;
-    padding: 40px;
-    color: rgb(0, 0, 0);
-}
+/* Layout Simples */
 
 .imgmochila {
     float: left;
     width: 130px;
     height: 100px;
-}
-
-.subtittlelay {
-    display: inline-block;
-    width: 100px;
-}
-
-#fundo {
-    border: solid red 5px;
-    width: 1400px;
-    height: 400px;
 }
 
 .conteudo1 {
@@ -118,4 +109,34 @@
     top: 50%;
     left: 5%;
     transform: translate(-50%, -50%);
+}
+
+/* Margens */
+
+.subtittlelay {
+    display: inline-block;
+    width: 100px;
+}
+
+#fundo {
+    border: solid red 5px;
+    width: 1400px;
+    height: 400px;
+}
+
+/* Formulario com CSS */
+
+.formcadastro {
+    background-color:
+}
+
+.cadastro {
+    color: darkred;
+    font-size: 50px;
+    font-family: arial;
+    display: inline-block;
+}
+
+.cadastroDeProdutos {
+    background: gray;
 }
