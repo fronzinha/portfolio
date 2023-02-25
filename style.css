@@ -13,7 +13,6 @@
     float: left;
 }
 
-
 .subTittle {
     text-align: center;
     background-color: rgb(88, 112, 216);
@@ -31,7 +30,6 @@
 .imgroda {
     font-size: small;
 }
-
 
 .botaoCurriculo {
     position: relative;
@@ -65,9 +63,10 @@
 .rodape {
     position: absolute;
     bottom: 0;
-    padding-bottom: 30px;
+    width: 100%;
+    height: 100px;
     text-align: center;
-    border: solid red;
+    line-height: 100px;
 }
 
 .lista {
