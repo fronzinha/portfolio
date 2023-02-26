@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com API (Desafio Extra)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="fundoFormDesafio">
+    <div>
+        <h1>Sistema de Editora 01.00.00</h1>
+        <hr>
+        <h3>Cadastrar Livros na base de Dados</h3>
+    </div>
+    <div>
+        <form action="https://target-api-simples.cyclic.app/livros" method="post">
+            <input type="text" name="title" placeholder="Titulo do Livro">
+            <input type="text" name="description" placeholder="Descrição do Livro">
+            <button type="submit">Mandar dados para a API</button>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h3>Mostrar Livros já Cadastrados</h3>
+        <form action="https://target-api-simples.cyclic.app/livros" method="get">
+            <button>Mostrar Livros Cadastrados na API</button>
+        </form>
+        <br>
+    </div>
+    <a href="index.html"><button>Voltar</button></a>
+</body>
+
+</html>

@@ -36,28 +36,36 @@
     font-size: 30px;
 }
 
-.botaoformcomcss {
+.botaoFormComCss {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
 
-.botaoformulario {
+.botaoFormulario {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
 
-.botaolayoutsimples {
+.botaoLayoutSimples {
     position: relative;
     top: 40px;
     left: 100px;
     font-size: 30px;
 }
 
-.botaositelayoutsimples {
+.botaoSiteLayoutSimples {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    font-size: 30px;
+
+}
+
+.botaoFormComApi {
     position: relative;
     top: 40px;
     left: 100px;
@@ -149,4 +157,11 @@
 
 .cadastroDeProdutos {
     background: gray;
+}
+
+/* Form com API - Desafio Extra */
+
+.fundoFormDesafio {
+    background-color: gray;
+    
 }
